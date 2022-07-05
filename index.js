@@ -11,7 +11,7 @@ let xpresso = {
 	name: 'Xpresso',
 	description: 'Designed and developed a website for a concept coffee subscription company',
 	url: "xpresso.html",
-	accent: '#361706',
+	accent: '#F5F3F1',
 	background: '#94877E',
 	second: '#361706',
 	indicator: 'xpresso-indicator'
@@ -126,7 +126,7 @@ function loadInfo() {
 		}
 	}
 
-	if ((currentFrame == 1) || (currentFrame == 2)) {
+	if ((currentFrame == 1) || (currentFrame == 4)) {
 		document.getElementById('description').style.color = projects[currentFrame].accent;
 		
 		document.getElementById(projects[currentFrame].indicator).style.backgroundColor = projects[currentFrame].second;
