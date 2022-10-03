@@ -4,89 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kuramoto</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <title>Kelli Kuramoto</title>
+    <!-- <link rel="icon" href="images/moto-logo.png" type="image/x-icon"> -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
+    <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;600&family=Inter:wght@300;@400;500;600;800&display=swap" rel="stylesheet">
-
+    
 </head>
 
 <body>
     <nav>
-        <a id="kuramoto" href="index.html">KURAMOTO</a>
-        <a id="about" href="mailto:kkuramot@andrew.cmu.eu">CONTACT</a>
+        <div class="nav-left">
+          <a class="nav-left-item" id="home-page" href="index.html">Kelli Kuramoto</a>
+        </div>
+
+        <div class="nav-right">
+          <a class="nav-right-item" id="play-page" href="play.html">Play</a>
+          <a class="nav-right-item" id="about-page" href="about.html">About</a>
+        </div>
     </nav>
 
     <div class="content"> 
-        <div id="bio">
-            <div id="bio-img">
-                <img height="550px" src="images/me.png" alt="Picture of Kelli Kuramoto">
-            </div>
-            <div id="bio-text">
-                <h2 class="animate__animated animate__fadeInDown">About me</h2>
-                <p class="animate__animated animate__fadeInRight">
-                    Coming into Carnegie Mellon undecided was very daunting because it seemed as though everyone knew what they wanted to do.
-                    <br>
-                    <br>
-                    Luckily, my freshman year I stumbled across the only design class I could register for: Interaction Desing Overview and I was introduced to my passion: Human Centered Design.
-                    <br>
-                    <br>
-                    Since then, I have been a passionate and aspiring UX Designer. Continually in awe of the idea that I can create products that help people. 
-                    <br>
-                    <br>
-                    I am excited to announce that I will be working at CoStar Group this summer, 2022, as a UX Design intern out of thier Washington D.C. office.
-                </p>
-            </div>
+      <div class="page-header">
+        <h1>About me</h1>
+        <p class="header-definition">ikigan: reason of being</p>
+      </div>
+
+        <div id="about-who">
+          <h3 class="bold">Who am I?</h3>
+          <p>Junior @ Carnegie Mellon University
+            <br>
+            <br>
+            B.S. Information Systems and Additional Major in Human Compter Interaction
+            <br>
+            <br>
+            I believe the combination of my technical and non traditional creative background makes me a stronger designer. 
+            I strive to embrace a variety of perspectives when addressing problems with a human centered solution.
+          </p>
         </div>
 
-        <div id="work">
-            <table>
-                <tr>
-                    <td id="costar">
-                        <p class="timeline"></p>
-                        <p class="date">JUNE 2022</p>
-                        <p class="company">CoStar Group</p>
-                        <p class="job">UX Design Intern</p>
-                        <p class="about-description"></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td id="onecommons">
-                        <p class="timeline"></p>
-                        <p class="date">APRIL 2022 - JUNE 2022</p>
-                        <p class="company">OneCommons</p>
-                        <p class="job">Front End Developer Intern</p>
-                        <p class="about-description"></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td id="csacademy">
-                        <p class="timeline"></p>
-                        <p class="date">AUGUST 2021 - APRIL 2022</p>
-                        <p class="company">CMU CS Academy</p>
-                        <p class="job">UX Design Intern</p>
-                        <p class="about-description">Worked on the Design & Outreach team to provide a better user experience for teachers and students of cmucsacademy.org. Some projects I worked on was the redesign of the login page, course syllabus, and grading modules. I collaborated with developers and project managers on a weekly basis to ensure designs are understood.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td id="cmu">
-                        <p class="timeline"></p>
-                        <p class="date">AUGUST 2021 - DECEMBER 2022</p>
-                        <p class="company">Carnegie Mellon University</p>
-                        <p class="job">Teaching Assistant for 05-651 Interaction Design Studio 1</p>
-                        <p class="about-description">Assisted the professor in critiquing students on their designs during in class critiques. I also assessed process books from students and provided feedback. Taught students how to use design software such as Figma and Adobe InDesign.</p>
-                    </td>
-                </tr>
-              </table>
-
+        <div id="about-how">
+          <h3>How did I get here?</h3>
+          <p>Growing up, I never knew what I wanted to do but I knew I wanted to help people.
+            <br>
+            <br>
+            In highschool I started to drift torwards political science. My first internship was with the local congressman, working to pass a proposal on increased subsized housing for low income families. 
+            <br>
+            <br>
+            However, once I got to college I fell in love with human centered design process and ux design. In my classes, I realized that there were so many ways that I could help people.
+          </p>
         </div>
 
-
+        <div id="about-where">
+          <h3 class="bold">Where am I going?</h3>
+          <p>I thrive in a collaborative environment where multiple perspectives are take when tacking any problem. 
+            <br>
+            <br>
+            I am always seeking to help others through my design and have make efforts torwards more accessible design.
+          </p>
+        </div>
+        
     </div>  
-
 </body>
+
+<footer>
+  <div class="nav-left">
+    <p>Made from scratch.</p>
+  </div>
+
+  <div class="nav-right">
+    <a class="nav-right-item" href="play.html">Play</a>
+    <a class="nav-right-item" href="about.html">About</a>
+  </div>
+</footer>
 </html>
