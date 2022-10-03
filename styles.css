@@ -45,6 +45,24 @@ footer .nav-left, footer .nav-right {
   padding-bottom: 64px;
 }
 
+a.nav-item-right:link , a.nav-item-left:link {
+  font-family: Graphik-Regular;
+  color: #000000;
+  text-decoration: underline;
+}
+
+a.nav-item-right:hover , a.nav-item-left:hover {
+  font-family: Graphik-Semi;
+  color: #EB7956;
+  text-decoration: underline;
+}
+
+a.nav-item-right:hover , a.nav-item-left:hover {
+  font-family: Graphik-Bold;
+  color: #EB7956;
+  text-decoration: none;
+}
+
 footer p, footer a {
   color: #EB7956;
 }
