@@ -169,6 +169,10 @@ h2 {
   display: inline-block;
 }
 
+.title {
+  text-align: center;
+}
+
 #costar-underline {
   font-family: Diranista-Regular;
   font-size: 48px;
