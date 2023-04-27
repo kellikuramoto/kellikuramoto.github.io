@@ -213,6 +213,50 @@ h2 {
   z-index: -1;
 }
 
+#cui-underline {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#cui-underline::after {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 16px;
+  background-color: #ACADB1;
+  z-index: -1;
+}
+
+#cafe23-underline {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#cafe23-underline::after {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 16px;
+  background-color: #8FA8CD;
+  z-index: -1;
+}
+
 h3 {
   font-family: Diranista-Regular;
   text-transform: uppercase;
@@ -390,20 +434,23 @@ div.back h4, div.back p {
 /* COSTAR STYLING */
 .thumbnail-casestudy {
   height: 90vh;
-  /* outline: 2px solid; */
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .thumbnail-casestudy img {
   width: 100%;
   height: auto;
-  /* border: 2px solid; */
+  padding-bottom: 64px;
+  float: left;
 }
 
 .casestudy-content {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  float: left;
 }
 
 
@@ -411,6 +458,7 @@ div.back h4, div.back p {
   float: left;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .casestudy-component img {
@@ -433,12 +481,9 @@ div.back h4, div.back p {
     margin-right: auto;
 }
 
-#costar-background, #sellinglater-background, #dailydetour-background {
-  padding-top: 72px;
-}
-
-#costar-lofi {
-  width: 45%;
+img#archie {
+    width: 350px;
+    height: 450px;
 }
 
 #grid-container {
@@ -447,10 +492,6 @@ div.back h4, div.back p {
   gap: 24px;
   padding: 24px;
   align-items: center;
-}
-
-#dailydetour-solution3 {
-  width: 50%;
 }
 
 .grid-container-play {
