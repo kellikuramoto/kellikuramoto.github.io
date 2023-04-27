@@ -42,6 +42,10 @@ body, .content, #recent-work {
   height: 50px;
 }
 
+.bold {
+  font-family: Avenir-Black;
+}
+
 footer {
   display: block;
 }
@@ -165,7 +169,7 @@ h2 {
   display: inline-block;
 }
 
-h2 span {
+#costar-underline {
   font-family: Diranista-Regular;
   font-size: 48px;
   text-align: center;
@@ -173,7 +177,7 @@ h2 span {
   z-index: 1;
 }
 
-h2 span::after {
+#costar-underline::after {
   font-family: Diranista-Regular;
   font-size: 48px;
   text-align: center;
@@ -184,6 +188,28 @@ h2 span::after {
   width: 100%;
   height: 16px;
   background-color: #E3F3FC;
+  z-index: -1;
+}
+
+#zoo-underline {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#zoo-underline::after {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 16px;
+  background-color: #B3CE7D;
   z-index: -1;
 }
 

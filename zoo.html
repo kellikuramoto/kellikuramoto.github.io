@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kelli Kuramoto</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+          <a class="nav-left-item" id="home-page" href="index.html">Kelli Kuramoto</a>
+        </div>
+
+        <div class="nav-right">
+          <a class="nav-right-item" id="play-page" href="play.html">Play</a>
+          <a class="nav-right-item" id="about-page" href="about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="content"> 
+      <div class="thumbnail-casestudy">
+        <h2>DATA DASHBOARD for the <span id="zoo-underline">PITTSBURGH ZOO</span></h2>
+        <img class="animate__animated animate__fadeInLeft animate__slower" src="images/zoo-thumbnail.png" alt="Pittsburgh Zoo Case Study">
+      </div>
+
+      <div class="casestudy-content">
+        <div class="casestudy-component" id="costar-background">
+          <div class="component-left">
+            <h4>Overview</h4>
+            <p>
+              As part of my Human-Computer Interaction studio class, our assignment was to create a data-driven display for the Pittsburgh Zoo & Aquarium, utilizing a given dataset. Within this project, my responsibilities included optimizing the alignment of the user interface elements and creating seamless animations to enhance the overall user experience of the dashboard.            
+            </p>
+          </div>
+          <div class="component-right">
+            <h4>Background</h4>
+            <p>Team
+              <ul>
+                <li>Katie Sun, Team member</li>
+                <li>Jason Wei, Team member</li>
+              </ul>
+              October 2022 - November 2022             
+            </p>
+          </div>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>The challenge</h4>
+          <p class="header">Create a data driven dashboard that meets the needs of the zoo-goers while simultaneously balancing business needs & constraints</p>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Our solution</h4>
+          <div id= "grid-container">
+          <div>
+            <p class="header">Provide high level overview of upcoming events</p>
+            <ul>
+              <li>Bird’s eye perspective increases engagement and exploration for all exhibits by showing exhibits with events</li>
+              <li>1st person perspective allows users to gauge distance of event and other exhibits to current location</li>
+            </ul>
+          </div>
+
+          <div>
+            <img src="images/zoo-solution1.png" alt="Pittsburgh Zoo Case Study">
+          </div>
+
+          <div>
+            <img src="images/zoo-solution2.png" alt="Pittsburgh Zoo Study">
+          </div>
+  
+          <div>
+            <p class="header">Real time data and updates about upcoming events & capacity</p>
+            <ul>
+              <li>Reduce wait times at events by notifying visitors if current event is full</li>
+              <li>Increase event engagement by providing next show times</li>
+            </ul>
+          </div>
+
+          <div>
+            <p class="header">Highlighted and updated important information for visitors</p>
+            <ul>
+              <li>Modules on the dashboard rotate between high-level information and Exhibit specific information</li>
+              <li>High level (Bird’s eye view): Rental Information & Featured events</li>
+              <li>Exhibit specific (1st person view): Train Info & Featured Wildlife</li>
+            </ul>
+          </div>
+
+          <div>
+            <img src="images/zoo-solution3.png" alt="Pittsburgh Zoo Case Study">
+          </div>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Uncovering user needs</h4>
+          <p class="header">Parsed research findings of 5 different personas using different modeling techniques to uncover insights</p>
+          <p>
+            <img src="images/zoo-userneeds.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+
+            By modeling the data, we wanted to answer the fundamental question: <span class="bold">Why do people visit the zoo? </span><br>
+
+            We hypothesized that the answer to this question was essential to determining what information was relevant, as well as the most effective mode of delivery. <br>
+
+            We identified 3 thematic insights across all 5 personas: 
+            <ol>
+              <li>
+                To fulfill or develop an appreciation for nature and wildlife
+              </li>
+              <li>
+                Foster a connection with fellow zoo-goers
+              </li>
+              <li>
+                To explore new things
+              </li>
+            </ol>         
+          </p>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Parallel prototyping and experimentation</h4>
+          <p class="header">Parsed research findings of 5 different personas using different modeling techniques to uncover insights</p>
+          <p>
+            We each sketched 2-4 dashboards in order to generate a wide range of ideas. Then, we came together and created a composite sketch, taking the most successful parts of each person’s drafts and identifying common components across all designs. 
+
+            <img src="images/zoo-sketches.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+
+            After we all agreed on the foundational components of our dashboard, we started to bring our sketches to life. A big design decision that we made was the addition of a 3rd dimension to our map. We noticed that many other groups in our class also had maps of the zoo and our group really wanted to push the bounds of our dashboard.
+
+            <img src="images/zoo-final-sketches.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+          </p>      
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Leaning into the 3rd dimension</h4>
+          <p class="header">Leveraged the characteristics of 3 dimensionality to provide 2 types of information: high level and exhibit specific</p>
+          <p>
+            We wanted to make sure this inclusion was not merely aesthetic, but adding value to our design. We constantly asked ourselves: <span class="bold"> How is the third dimension of the map adding to the user’s experience? </span>
+            
+            <img src="images/zoo-povs.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+
+            We decided to implement an alternative grounded perspective for the more immediate, location-based information. We felt this view better immerses a visitor into the scene and allows them to orient themselves more accurately.
+
+            <img src="images/zoo-modules.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+          </p>     
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Emphasizing temporality & information selection</h4>
+          <p class="header">Highlighted and updated information based on real time data and current events</p>
+          <p>
+            We also considered how to differentiate our dashboard from a static map. <span class="bold">Our answer: real-time data about the ongoings at the zoo. </span>
+            <br>
+            When selecting information, our strategy focused heavily on temporality-- what did the user really need to know at a given time?          
+            <img src="images/zoo-time-modules.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+          </p>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Using animation to engage visitors</h4>
+          <p class="header">Used animations to provide affordances of upcoming transitions, as well as perspective changes</p>
+          <p>
+            In order to create the smoothest experience for our visitors, we were thoughtful in our use of animations to provide feedforward for viewers to hint at a screen change. Animations of the star popping up captures the users eye, which decreases the suddenness of the perspective changes from high level to exhibit level information.           
+            <img src="images/zoo-animation.png" class="img-center" alt="Pittsburgh Zoo Case Study">
+          </p>     
+        </div>
+
+        <div class="casestudy-component">
+          <h4>Final design</h4>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1100" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMlsDMM9rvtgD8pNHbqdd8Y%2FData-Driven-Display-in-Digital-Form-with-Motion-%2526-Reflection%3Fpage-id%3D0%253A1%26node-id%3D95-1712%26viewport%3D485%252C250%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D95%253A111">
+          </iframe>
+        </div>
+
+        <div class="casestudy-component">
+          <h4>What I learned</h4>
+          <p>
+            I’ve created about a dozen or so hi-fi prototypes for various design classes, but I have never been quite as proud as I was when my team created this data-driven display. This project pushed my bounds of thinking in multiple ways and shaped me into a better design.           
+          </p>
+          <ol>
+            <li>
+              Design materials aren’t always colors and shapes. This assignment has pushed the boundaries on my knowledge of what could be used as a “design material” to expand medium such as data and animation. Constantly pushing myself to ask questions like, what characteristics of data or capabilities of animation can I leverage to create the best experience for my users?
+            </li>
+            <li>
+              There are no mistakes, especially when you're in school. At the begging of this unit, we notice most of our fellow classmates were utilizing a map for their dashboard. While ideating how to stand out, we realized none of them were leveraging natural mapping or 3 dimensional maps to enhance the user experience. By trying something completely new to all of us, we created a product we are proud of.             
+            </li>
+          </ol> 
+        </div>
+      </div>  
+    </div>
+  </div>
+</body>
+
+<footer>
+  <div class="nav-left">
+    <p>Made from scratch.</p>
+  </div>
+
+  <div class="nav-right">
+    <a class="nav-right-item" href="play.html">Play</a>
+    <a class="nav-right-item" href="about.html">About</a>
+    <a class="nav-right-item" href="index.html#recent-work">Work</a>
+  </div>
+</footer>
+
+</html>
