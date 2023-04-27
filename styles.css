@@ -344,7 +344,13 @@ div.grid-container {
   padding-bottom: 64px;
   text-align: center;
   height: 500px;
+  transition: transform 0.3s ease-in-out;
 }
+
+.grid-item:hover {
+  transform: translateX(16px) translateY(16px);
+}
+
 
 .grid-item div.thumbnail-container {
   padding: 10px;
