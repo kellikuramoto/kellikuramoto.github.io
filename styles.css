@@ -1,96 +1,228 @@
 @font-face {
-  font-family: Graphik-Light;
-  src: url(GraphikLight.otf);
+  font-family: Avenir-Black;
+  src: url(AvenirLTStd-Black.otf);
 }
 
 @font-face {
-  font-family: Graphik-Regular;
-  src: url(GraphikRegular.otf);
+  font-family: Avenir-Book;
+  src: url(AvenirLTStd-Book.otf);
 }
 
 @font-face {
-  font-family: Graphik-Semi;
-  src: url(GraphikSemibold.otf);
+  font-family: Avenir-Roman;
+  src: url(AvenirLTStd-Roman.otf);
 }
 
 @font-face {
-  font-family: Graphik-Bold;
-  src: url(GraphikBold.otf);
+  font-family: Avenir-Light;
+  src: url(AvenirLTStd-Light.ttf);
+}
+
+@font-face {
+  font-family: Diranista-Regular;
+  src: url(Diranista-Regular.otf);
 }
 
 * { 
-  font-family: Graphik-Light;
+  font-family: Avenir-Book;
   color: #000000;
-  font-size: 20px;
+  font-size: 24px;
 }
 
-#semibold {
-  font-family: Graphik-Semi;
-}
-
-#bold {
-  font-family: Graphik-Bold;
-}
-
-body, .content {
-  width: 90%;
+body, .content, #recent-work {
+  width: 85%;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 36px;
   /* border: solid 3px; */
 }
 
+#home-page img {
+  width: 55.93px;
+  height: 50px;
+}
+
+footer {
+  display: block;
+}
 footer .nav-left, footer .nav-right {
   padding-top: 64px;
   padding-bottom: 64px;
 }
+nav a {
+  font-family: Diranista-Regular;
+}
 
 a.nav-item-right:link , a.nav-item-left:link {
-  font-family: Graphik-Regular;
+  font-family: Diranista-Regular;
   color: #000000;
   text-decoration: underline;
 }
 
 a.nav-item-right:hover , a.nav-item-left:hover {
-  font-family: Graphik-Semi;
+  font-family: Diranista-Regular;
   color: #EB7956;
   text-decoration: underline;
 }
 
 a.nav-item-right:hover , a.nav-item-left:hover {
-  font-family: Graphik-Bold;
+  font-family: Diranista-Regular;
   color: #EB7956;
   text-decoration: none;
 }
 
 footer p, footer a {
-  color: #EB7956;
+  font-family: Diranista-Regular;
+  color: #BFD683;
 }
 
 h1 {
-  font-family: Graphik-Semi;
-  font-size: 64px;
-  color: #E1A25D;
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  margin-top: -32px;
+  position: relative;
+  display: inline-block;
+}
+
+h1#designer span {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  margin-top: -32px;
+  position: relative;
+  z-index: 1;
+}
+
+h1#designer span::after {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  /* margin-top: -32px; */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  height: 24px;
+  background-color: #BFD683;
+  z-index: -1;
+}
+
+h1#developer span {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  margin-top: -32px;
+  position: relative;
+  z-index: 1;
+}
+
+h1#developer span::after {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  /* margin-top: -32px; */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  height: 24px;
+  background-color: #E1AF48;
+  z-index: -1;
+}
+
+h1#diver span {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  margin-top: -32px;
+  position: relative;
+  z-index: 1;
+}
+
+h1#diver span::after {
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 96px;
+  /* margin-top: -32px; */
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  height: 24px;
+  background-color: #8091F8;
+  z-index: -1;
 }
 
 h2 {
-  font-family: Graphik-Semi;
+  font-family: Diranista-Regular;
   font-size: 48px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+h2 span {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+h2 span::after {
+  font-family: Diranista-Regular;
+  font-size: 48px;
+  text-align: center;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 16px;
+  background-color: #E3F3FC;
+  z-index: -1;
 }
 
 h3 {
-  font-family: Graphik-Bold;
-  font-size: 28px;
+  font-family: Diranista-Regular;
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 h4 {
-  font-family: Graphik-Semi;
-  font-size: 28px;
+  font-family: Avenir-Black;
+  font-size: 32px;
 }
 
-h5 {
-  margin-top: -16px;
-  font-size: 36px;
+p {
+  font-family: Avenir-Book;
+  font-size: 24px;
+}
+
+p.header {
+  font-family: Avenir-Roman;
+  font-size: 40px;
+}
+
+p.caption {
+  font-family: Avenir-Book;
+  font-size: 16px;
+}
+
+p.homepage-subtitle {
+  font-family: Avenir-Light;
+  font-size: 28px;
+  margin-top: -124px;
+  color: black;
+}
+
+#homepage {
+  margin-top: 156px;
+  text-align: center;
 }
 
 /* NAVIGATION BAR STYLING */
@@ -125,6 +257,81 @@ nav {
   float: left;
   text-decoration: none;
 }
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+  height: 500px;
+}
+
+.grid-item div.thumbnail-container {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+div.thumbnail {
+  width: 377px;
+  position: absolute;
+  top: 0;
+}
+
+div.front {
+  width: 377px;
+  height: 246px;
+  background-color: white;
+  outline: 2px black solid;
+}
+
+div.back h4, div.back p {
+  color: white;
+  margin-top: -4px;
+}
+
+#costar div.back {
+  background-color: #0D3B72;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#zoo div.back {
+  background-color: #59B195;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#archie div.back {
+  background-color: #EB4C2E;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#cafe23 div.back {
+  background-color: #E17B4A;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+
 
 /* BODY STYLING */
 #recent-work {

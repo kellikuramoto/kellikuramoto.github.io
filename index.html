@@ -18,7 +18,8 @@
 <body>
   <nav>
     <div class="nav-left">
-      <a class="nav-left-item" id="home-page" href="index.html">Kelli Kuramoto</a>
+      <a class="nav-left-item" id="home-page" href="index.html"><img src="images/logo.png" alt="CoStar Case Study" onclick="location.href = 'home.html';">
+      </a>
     </div>
 
     <div class="nav-right">
@@ -27,22 +28,81 @@
     </div>
   </nav>
 
-  <div class="content"> 
-    <img src="images/thumbnail-cover.png" class="img-center" id="thumbnail-cover" alt="CoStar Case Study">
+  <div class="content" id="homepage"> 
+    <p class="homepage-subtitle">User experience</p>
+    <h1 id="designer"><span>DESIGNER</span><br> *</h1>
+    <p class="homepage-subtitle">Web application</p>
+    <h1 id="developer"><span>DEVELOPER</span> <br> *</h1>
+    <p class="homepage-subtitle">Springboard</p>
+    <h1 id="diver"><span>DIVER</span></h1>
   </div>
 
   <div id="recent-work">
-    <h2 class="bold">Recent Work</h2>
-    <img class="thumbnail-large" src="images/costar-thumbnail-lg.png" alt="CoStar Case Study" onclick="location.href = 'costar.html';">
-    <img class="thumbnail-large" src="images/sellinglater-thumbnail-lg.png" alt="Selling Later Case Study" onclick="location.href = 'sellinglater.html';">
-    <img class="thumbnail-large" src="images/dailydetour-thumbnail-lg.png" alt="Daily Detour Case Study" onclick="location.href = 'dailydetour.html';">
+    <h2>* RECENT WORK</h2>
+    <div class="grid-container">
+    <a href="costar.html">
+    <div class="grid-item">
+      <div id="costar" class="thumbnail-container">
+        <div class="thumbnail back">
+          <h4>Costar Group</h4>
+          <p>Modernized the CoStar Product</p>
+          <p>* UX Design <br> *Jun 2022 - Aug 2022</p>
+        </div>
+        <div class="thumbnail front">
+          <img class="thumbnail-large" src="images/costar-thumbnail-sm.png" alt="CoStar Case Study">
+        </div>
+      </div>
+    </div>
+  </a>
+    
+    <a href="about.html">
+    <div class="grid-item">
+        <div id="zoo" class="thumbnail-container">
+      <div class="thumbnail back">
+        <h4>Pittsburgh Zoo</h4>
+        <p>Data driven dashboard display</p>
+        <p>* UX Design <br> *Oct 2022 - Nov 2022</p>
+      </div>
+      <div class="thumbnail front">
+        <img class="thumbnail-large" src="images/costar-thumbnail-sm.png" alt="CoStar Case Study">
+      </div>
+    </div>
+    </div>
+    </a>
+
+    <div class="grid-item">
+      <div id="archie" class="thumbnail-container">
+        <div class="thumbnail back">
+          <h4>Archie</h4>
+          <p>Conversational agent for hotels</p>
+          <p>* CUI Design <br> *Feb 2023 - March 2023</p>
+        </div>
+        <div class="thumbnail front">
+          <img class="thumbnail-large" src="images/costar-thumbnail-sm.png" alt="CoStar Case Study">
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+        <div id="cafe23" class="thumbnail-container">
+      <div class="thumbnail back">
+        <h4>Cafe23</h4>
+        <p>Web application for coffee shop</p>
+        <p>* Web Development <br> *Aug 2022 - Mar 2023</p>
+      </div>
+      <div class="thumbnail front">
+        <img class="thumbnail-large" src="images/costar-thumbnail-sm.png" alt="CoStar Case Study">
+      </div>
+    </div>
+    </div>
   </div>
-  
+</div>
+
 </body>
 
-<footer>
+<!-- <footer>
   <div class="nav-left">
-    <p>Made from scratch.</p>
+    <p>Made from scratch. 2023</p>
   </div>
 
   <div class="nav-right">
@@ -50,5 +110,5 @@
     <a class="nav-right-item" href="about.html">About</a>
     <a class="nav-right-item" href="index.html#recent-work">Work</a>
   </div>
-</footer>
+</footer> -->
 </html>
