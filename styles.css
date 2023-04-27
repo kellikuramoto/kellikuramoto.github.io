@@ -24,7 +24,7 @@
 }
 
 * { 
-  font-family: Avenir-Book;
+  font-family: Avenir-Light;
   color: #000000;
   font-size: 24px;
 }
@@ -34,7 +34,6 @@ body, .content, #recent-work {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 36px;
-  /* border: solid 3px; */
 }
 
 #home-page img {
@@ -272,19 +271,20 @@ h4 {
   font-size: 32px;
 }
 
+h5 {
+  font-family: Avenir-Black;
+  font-size: 28px;
+}
+
+
 p {
-  font-family: Avenir-Book;
+  font-family: Avenir-Light;
   font-size: 24px;
 }
 
 p.header {
   font-family: Avenir-Roman;
   font-size: 40px;
-}
-
-p.caption {
-  font-family: Avenir-Book;
-  font-size: 16px;
 }
 
 p.homepage-subtitle {
@@ -340,7 +340,8 @@ div.grid-container {
 }
 
 .grid-item {
-  padding: 10px;
+  padding-left: 24px;
+  padding-bottom: 64px;
   text-align: center;
   height: 500px;
 }
@@ -405,27 +406,18 @@ div.back h4, div.back p {
   outline: 2px black solid;
 }
 
-
-
 /* BODY STYLING */
 #recent-work {
   width: 80%;
-  /* outline: 1px solid; */
   margin-right: auto;
   margin-left: auto;
 }
 
 .thumbnail-large {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 80%;
   padding-top: 24px;
-  padding-bottom: 24px;
-  /* border: 1px solid black; */
-}
-
-#thumbnail-cover {
-  max-width: 55vw;
-  height: auto;
+  /* height: auto; */
 }
 
 /* ABOUT STYLING */
