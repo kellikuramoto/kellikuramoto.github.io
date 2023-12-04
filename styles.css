@@ -437,14 +437,6 @@ div.back h4, div.back p {
   /* height: auto; */
 }
 
-/* ABOUT STYLING */
-#about-who, #about-how, #about-where {
-  width: 30%;
-  padding: 16px;
-  float: left;
-}
-
-/* COSTAR STYLING */
 .thumbnail-casestudy {
   height: 90vh;
   margin-left: auto;
@@ -461,8 +453,8 @@ div.back h4, div.back p {
 .casestudy-content {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  float: left;
+  width: 90%;
+  float: center;
 }
 
 .casestudy-component, 
@@ -500,14 +492,40 @@ div.back h4, div.back p {
   float: left;
 }
 
+.component-3col {
+  float: left;
+  width: 33.33%;
+  /* padding: 1%; */
+}
+
+.component-3col p {
+  text-align: center;
+}
+
+.component-3col .component-text img {
+  width: 90%;
+  height: auto;
+  display: block;
+} 
+
 .component-text {
   padding-left: 32px;
 }
 
-.img-center {
+.img-center, .img-center video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.component-header {
+  font-size: 32px;
+  margin-top: -6px;
+}
+
+.amazon-bold-color {
+  font-weight: 700;
+  color: #DD74F7;
 }
 
 img#archie {
