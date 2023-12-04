@@ -19,8 +19,11 @@ body, .content{
 }
 
 footer {
-  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 footer .nav-left, footer .nav-right {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -47,7 +50,8 @@ a.nav-item-right:hover , a.nav-item-left:hover {
 }
 
 footer p, footer a {
-  color: #BFD683;
+  font-family: 'DM Sans', sans-serif;
+  color: #8091F8;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -157,6 +161,55 @@ h4{
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 12px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* ABOUT PAGE STYLING */
+/* -------------------------------------------------------------------------- */
+
+h1 {
+  font-size: 56px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+.definition {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#about-img img {
+  width: 27.9%;
+  height: auto;
+  float: left;
+}
+
+#about-img,
+#play-diving-img,
+#play-photo-img, 
+#play-swe-img {
+  display: block;
+  margin-top: 80px;
+}
+
+
+#play-diving-img img,
+#play-photo-img img, 
+#play-swe-img img {
+  width: 27.9%;
+  height: auto;
+  float: left;
+}
+
+#about-text, 
+#play-diving-text, 
+#play-photo-text,
+#play-swe-text {
+  width: 65.9%;
+  padding-left: 5%;
+  float: left;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -412,7 +465,8 @@ div.back h4, div.back p {
   float: left;
 }
 
-.casestudy-component {
+.casestudy-component, 
+.play-component {
   float: left;
   margin-left: auto;
   margin-right: auto;
