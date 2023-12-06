@@ -18,6 +18,10 @@ body, .content{
   font-weight: 700;
 }
 
+.text-center {
+  text-align: center;
+}
+
 h1 {
   font-size: 56px;
   font-weight: 900;
@@ -389,6 +393,7 @@ div.back h4, div.back p {
 
 #zoo-underline {
   font-size: 48px;
+  font-weight: 900;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -396,7 +401,7 @@ div.back h4, div.back p {
 
 #zoo-underline::after {
   font-size: 48px;
-  text-align: center;
+  font-weight: 900;
   content: "";
   position: absolute;
   left: 0;
@@ -425,10 +430,6 @@ div.back h4, div.back p {
   height: 16px;
   background-color: #ACADB1;
   z-index: -1;
-}
-
-p.header {
-  font-size: 40px;
 }
 
 p.homepage-subtitle {
@@ -560,6 +561,11 @@ p.homepage-subtitle {
 .amazon-bold-color {
   font-weight: 700;
   color: #DD74F7;
+}
+
+.zoo-bold-color {
+  font-weight: 700;
+  color: #B3CE7D;
 }
 
 .img-caption {
