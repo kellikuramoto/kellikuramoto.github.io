@@ -18,6 +18,43 @@ body, .content{
   font-weight: 700;
 }
 
+h1 {
+  font-size: 56px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 700; 
+  text-align: left;
+}
+
+.h2-unbold {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+h4{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.definition {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* FOOTER STYLING */
+/* -------------------------------------------------------------------------- */
+
 footer {
   width: 90%;
   margin-right: auto;
@@ -27,6 +64,46 @@ footer {
 footer .nav-left, footer .nav-right {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+footer p, footer a {
+  font-family: 'DM Sans', sans-serif;
+  color: #8091F8;
+}
+
+/* -------------------------------------------------------------------------- */
+/* NAVBAR STYLING */
+/* -------------------------------------------------------------------------- */
+nav {
+  height: 10vh;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-left {
+  float: left;
+  width: 50%;
+}
+
+.nav-right {
+  float: right;
+  width: 50%;
+}
+
+.nav-right-item {
+  padding-left: 36px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  float: right;
+  text-decoration: none;
+}
+
+.nav-left-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  float: left;
+  text-decoration: none;
 }
 
 a.nav-item-right:link , a.nav-item-left:link {
@@ -49,13 +126,8 @@ a.nav-item-right:hover , a.nav-item-left:hover {
   text-decoration: none;
 }
 
-footer p, footer a {
-  font-family: 'DM Sans', sans-serif;
-  color: #8091F8;
-}
-
 /* -------------------------------------------------------------------------- */
-/* HOMEPAGE STYLING */
+/* HOMEPAGE- BIO STYLING */
 /* -------------------------------------------------------------------------- */
 
 #homepage p#title {
@@ -144,41 +216,92 @@ h1#designer span {
   z-index: 1;
 }
 
-h2{
-  font-size: 32px;
-  font-weight: 700; 
-  text-align: left;
+/* -------------------------------------------------------------------------- */
+/* HOMEPAGE- RECENT WORK STYLING */
+/* -------------------------------------------------------------------------- */
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
 }
 
-.h2-unbold {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-  font-size: 32px;
+.grid-item {
+  padding-left: 24px;
+  padding-bottom: 64px;
+  text-align: center;
+  height: 500px;
+  transition: transform 0.3s ease-in-out;
 }
 
-h4{
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 12px;
+.grid-item:hover {
+  transform: translateX(16px) translateY(16px);
+}
+
+.grid-item div.thumbnail-container {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+div.thumbnail {
+  width: 377px;
+  position: absolute;
+  top: 0;
+}
+
+div.front {
+  width: 377px;
+  height: 246px;
+  background-color: white;
+  outline: 2px black solid;
+}
+
+div.back h4, div.back p {
+  color: white;
+  margin-top: -4px;
+}
+
+#costar div.back {
+  background-color: #0D3B72;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#zoo div.back {
+  background-color: #59B195;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#archie div.back {
+  background-color: #EB4C2E;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
+}
+
+#amazon div.back {
+  background-color: #42C8CF;
+  top: 24px;
+  left: 24px;
+  text-align: center;
+  padding-top: 254px;
+  outline: 2px black solid;
 }
 
 /* -------------------------------------------------------------------------- */
 /* ABOUT PAGE STYLING */
 /* -------------------------------------------------------------------------- */
-
-h1 {
-  font-size: 56px;
-  font-weight: 900;
-  text-align: left;
-  margin-bottom: -20px;
-}
-
-.definition {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-}
 
 #about-img img {
   width: 27.9%;
@@ -318,118 +441,6 @@ p.homepage-subtitle {
   margin-top: 128px;
 }
 
-/* NAVIGATION BAR STYLING */
-nav {
-  height: 10vh;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.nav-left {
-  float: left;
-  width: 50%;
-}
-
-.nav-right {
-  float: right;
-  width: 50%;
-}
-
-.nav-right-item {
-  padding-left: 36px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  float: right;
-  text-decoration: none;
-}
-
-.nav-left-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  float: left;
-  text-decoration: none;
-}
-
-div.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
-}
-
-.grid-item {
-  padding-left: 24px;
-  padding-bottom: 64px;
-  text-align: center;
-  height: 500px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.grid-item:hover {
-  transform: translateX(16px) translateY(16px);
-}
-
-.grid-item div.thumbnail-container {
-  padding: 10px;
-  text-align: center;
-  position: relative;
-}
-
-div.thumbnail {
-  width: 377px;
-  position: absolute;
-  top: 0;
-}
-
-div.front {
-  width: 377px;
-  height: 246px;
-  background-color: white;
-  outline: 2px black solid;
-}
-
-div.back h4, div.back p {
-  color: white;
-  margin-top: -4px;
-}
-
-#costar div.back {
-  background-color: #0D3B72;
-  top: 24px;
-  left: 24px;
-  text-align: center;
-  padding-top: 254px;
-  outline: 2px black solid;
-}
-
-#zoo div.back {
-  background-color: #59B195;
-  top: 24px;
-  left: 24px;
-  text-align: center;
-  padding-top: 254px;
-  outline: 2px black solid;
-}
-
-#archie div.back {
-  background-color: #EB4C2E;
-  top: 24px;
-  left: 24px;
-  text-align: center;
-  padding-top: 254px;
-  outline: 2px black solid;
-}
-
-#amazon div.back {
-  background-color: #42C8CF;
-  top: 24px;
-  left: 24px;
-  text-align: center;
-  padding-top: 254px;
-  outline: 2px black solid;
-}
-
 .thumbnail-large {
   width: auto;
   height: 80%;
@@ -465,11 +476,26 @@ div.back h4, div.back p {
   width: 100%;
 }
 
-.casestudy-component img {
+.casestudy-component img,
+.casestudy-component video {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+} 
+
+.casestudy-component img.full-size,
+.casestudy-component .component-left video.full-size,
+.casestudy-component .component-right video.full-size,
+.component-4col video.full-size {
   width: 90%;
   height: auto;
-  padding: 24px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 } 
 
 .casestudy-component button {
@@ -495,11 +521,16 @@ div.back h4, div.back p {
 .component-3col {
   float: left;
   width: 33.33%;
-  /* padding: 1%; */
 }
 
-.component-3col p {
+.component-3col p,
+.component-4col p {
   text-align: center;
+}
+
+.component-4col {
+  float: left;
+  width: 25%;
 }
 
 .component-3col .component-text img {
@@ -512,7 +543,10 @@ div.back h4, div.back p {
   padding-left: 32px;
 }
 
-.img-center, .img-center video {
+.img-center, 
+.component-right video,
+.component-left video,
+.component-header video {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -526,6 +560,15 @@ div.back h4, div.back p {
 .amazon-bold-color {
   font-weight: 700;
   color: #DD74F7;
+}
+
+.img-caption {
+  font-size: 14px;
+}
+
+.demo-container-left {
+  width: 20%;
+  float: left;
 }
 
 img#archie {
