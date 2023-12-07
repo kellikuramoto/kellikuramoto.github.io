@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kelli Kuramoto</title>
+    <title>Kelli with an eye.</title>
     <link rel="icon" href="images/logo.png" type="image/x-icon">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -18,7 +23,8 @@
 <body>
   <nav>
     <div class="nav-left">
-      <a class="nav-left-item" id="home-page" href="index.html">Kelli Kuramoto</a>
+      <a class="nav-left-item" id="home-page" href="index.html">Kelli Kuramoto
+      </a>
     </div>
 
     <div class="nav-right">
@@ -27,22 +33,90 @@
     </div>
   </nav>
 
-  <div class="content"> 
-    <img src="images/thumbnail-cover.png" class="img-center" id="thumbnail-cover" alt="CoStar Case Study">
+  <div class="content" id="homepage"> 
+    <p id="title">Kelli with an i,<br>
+      <span id="designer-ul">Product designer</span> with an eye</p>
+    <p class="info">❈ Senior at <span id="college-ul">Carnegie Mellon</span> studying Information Systems <br>and Human Computer Interaction</p>
+    <p class="info">⦿ UX Design Intern @ <span id="company-ul">Amazon</span></p>
   </div>
 
-  <div id="recent-work">
-    <h2 class="bold">Recent Work</h2>
-    <img class="thumbnail-large" src="images/costar-thumbnail-lg.png" alt="CoStar Case Study" onclick="location.href = 'costar.html';">
-    <img class="thumbnail-large" src="images/sellinglater-thumbnail-lg.png" alt="Selling Later Case Study" onclick="location.href = 'sellinglater.html';">
-    <img class="thumbnail-large" src="images/dailydetour-thumbnail-lg.png" alt="Daily Detour Case Study" onclick="location.href = 'dailydetour.html';">
+  <div class="content" id="recent-work">
+    <h2><span class="h2-unbold">⦿</span> Recent Work</h2>
+    <div class="grid-container">
+
+    <!-- Amazon Thumbnail -->    
+    <a href="amazon.html">
+      <div class="grid-item">
+        <div id="amazon" class="thumbnail-container">
+          <div class="thumbnail back">
+            <h4>Amazon Music</h4>
+            <p>Artist Monetization Feature</p>
+            <p>#user-research #ux-design</p>
+          </div>
+          <div class="thumbnail front">
+            <img class="thumbnail-large" src="images/amazon-thumbnail-sm.png" alt="CoStar Case Study">
+          </div>
+      </div>
+      </div>
+      </a>
+
+    <!-- Zoo Thumbnail -->
+    <a href="zoo.html">
+    <div class="grid-item">
+      <div id="zoo" class="thumbnail-container">
+        <div class="thumbnail back">
+          <h4>Pittsburgh Zoo</h4>
+          <p>Data driven dashboard display</p>
+          <p>#dashboard-design #motion-design</p>
+        </div>
+
+        <div class="thumbnail front">
+          <img class="thumbnail-large" src="images/zoo-thumbnail-sm.png" alt="CoStar Case Study">
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <!-- Archie Thumbnail -->
+    <a href="cui.html">
+    <div class="grid-item">
+      <div id="archie" class="thumbnail-container">
+        <div class="thumbnail back">
+          <h4>Archie</h4>
+          <p>Conversational agent for hotels</p>
+          <p>#conversational-design #data-privacy</p>
+        </div>
+        <div class="thumbnail front">
+          <img class="thumbnail-large" src="images/cui-thumbnail-sm.png" alt="CoStar Case Study">
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <!-- CoStar Thumbnail -->
+    <a href="costar.html">
+    <div class="grid-item">
+      <div id="costar" class="thumbnail-container">
+        <div class="thumbnail back">
+          <h4>Costar Group</h4>
+          <p>Modernized the CoStar Product</p>
+          <p>#ui-design #design-system</p>
+        </div>
+        <div class="thumbnail front">
+          <img class="thumbnail-large" src="images/costar-thumbnail-sm.png" alt="CoStar Case Study">
+        </div>
+      </div>
+    </div>
+    </a>
+
   </div>
-  
+  </div>
+
 </body>
 
 <footer>
   <div class="nav-left">
-    <p>Made from scratch.</p>
+    <p>Coded from scratch.</p>
   </div>
 
   <div class="nav-right">

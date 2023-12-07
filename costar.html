@@ -6,6 +6,11 @@
 
     <title>Kelli Kuramoto</title>
     <link rel="icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
     
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -29,38 +34,35 @@
 
     <div class="content"> 
       <div class="thumbnail-casestudy">
-        <img class="animate__animated animate__fadeInLeft animate__slower" src="images/costar-thumbnail.png" alt="CoStar Case Study">
+        <div class="casestudy-title">
+          <h2> Modernizing the <span class="bold" id="costar-underline">CoStar Product</span></h2>
+        </div>
+
+        <img class="thumbnail-img animate__animated animate__fadeInLeft animate__slower" src="images/costar-thumbnail.png" alt="CoStar Case Study">
       </div>
 
       <div class="casestudy-content">
         <div class="casestudy-component" id="costar-background">
           <div class="component-left">
-            <h4 class="bold">What did I do?</h4>
-            <p>During Summer 2022, I collaborated with 2 other UX design interns to align the CoStar Properties product with the new design system. I also redesign the experience of specific tabs within the product to better address user needs. 
+            <h2><span class="h2-unbold">⦿</span> Overview</h2>            
+            <p class="component-text">
+              During Summer 2022, I had the opportunity to collaborate with two fellow UX design interns on a project aimed at aligning the CoStar Properties product with the newly introduced Cosmos design system. I undertook the task of redesigning specific tabs within the product to enhance their ability to address user needs effectively.
             </p>
           </div>
+
           <div class="component-right">
-            <h4 class="bold">Who? When?</h4>
-            <p>Team
-              <ul>
-                <li>Anna Wei, UX Design Intern</li>
-                <li>Jenna Marhburk, UX Design Intern</li>
-              </ul>
-              June 2022 - August 2022             
-            </p>
+            <h2><span class="h2-unbold">⦿</span> Background</h2>
+            <p class="component-text">Team: Anna Wei, Jenna Marhburk, and CoStar Product Design Team</p>
+            <p class="component-text">Timeline: June 2022 - August 2022</p>
+            <p class="component-text">Goal:<span class="costar-bold-color"> Update outdated UI and UX restricted the users from using the product in an efficient manner</span></p>
           </div>
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">What was the problem?</h4>
-          <h5>Outdated UI and UX restricted the users from using the product in an efficient manner</h5>
-        </div>
-
-        <div class="casestudy-component">
-          <h4 class="bold">What was my solution?</h4>
+          <h2><span class="h2-unbold">⦿</span> The Solution</h2>
           <div id= "grid-container">
           <div>
-            <h5>Increased typeface + line spacing allowed for easier readability</h5>
+            <p class="component-text component-header">Increased typeface + line spacing allowed for easier readability</p>
             <ul>
               <li>Conforms to AAA Accessibility Standards</li>
               <li>Easier skimmability allows customers to access information quicker</li>
@@ -77,7 +79,7 @@
           </div>
   
           <div>
-            <h5>Leveraged current features within the product to reimagine functionality of the page</h5>
+            <p class="component-text component-header">Leveraged current features within the product to reimagine functionality of the page</p>
             <ul>
               <li>Allows easy customization of Peers set</li>
               <li>Compare property against peers along multiple KPIs</li>
@@ -86,9 +88,9 @@
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Getting to know my users</h4>
-          <h5>Meet with Internal CoStar employees to better understand the projected use of the product</h5>
-          <p>
+          <h2><span class="h2-unbold">⦿</span> Getting to know my users</h2>
+          <p class="component-text component-header">Meet with Internal CoStar employees to better understand the projected use of the product</p>
+          <p class="component-text">
             Due to time and other constraints I was unable to talk with customers directly. Instead, I talked to the next best people, CoStar employees who were client facing, such as Project Managers and Sales Associates. 
           </p>
           <ul>
@@ -97,72 +99,75 @@
             <li>Who uses this page?</li>
             <li>What changes do you want to be made?</li>
           </ul>
-          For this case study, I am going to specifically focus on the Peers page.
+          <p class="component-text">
+            For this case study, I am going to specifically focus on the Peers page.
+          </p>
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Gathering my insights</h4>
-          <h5>No customization or comparability function on Peers page</h5>
-          <p>
-            After speaking with the previous project manager of the Peer page, I was able to gauge that the purpose of the Peers page was to allow users to compare their property against similar “peers” properties.          
+          <h2><span class="h2-unbold">⦿</span> Gathering my insights</h2>
+          <p class="component-text component-header">No customization or comparability function on Peers page</p>
+          <p class="component-text">
+            After speaking with the previous project manager of the Peer page, I was able to gauge that the purpose of the Peers page was to allow users to compare their property against similar “peers” properties
+          </p>             
           <ul>
             The biggest areas of improvement were:
             <li>Visual disconnect between Map and List View</li>
             <li>Limited comparison functionality</li>
           </ul>
-          I saw an opportunity to increase the user value of this page 10 fold because comparison is a huge advantage within the commercial real estate industry. My goal for this redesign was to increase the ability of the user to quickly customize their peer set, as well as compare their property among chosen metrics. 
+          <p class="component-text">
+            I saw an opportunity to increase the user value of this page 10 fold because comparison is a huge advantage within the commercial real estate industry. My goal for this redesign was to <span class="costar-bold-color"> increase the ability of the user to quickly customize their peer set, as well as compare their property among chosen metrics.</span>
           </p>      
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Multiple design directions</h4>
-          <h5>Utilizing the Proximity Principle to increase feedback</h5>
-          <p>
+          <h2><span class="h2-unbold">⦿</span> Multiple design directions</h2>
+          <p class="component-text component-header">Utilizing the Proximity Principle to increase feedback</p>
+
+          <p class="component-text">
             I noticed right away that the table and map view were extremely far apart which made it hard for users to connect them mentally, and as a response made it impossible to visualize their changes to the peer set.
-          <img src="images/costar-lofi.png" class="img-center" id="costar-lofi" alt="CoStar Case Study">
-            I played around with multiple iterations: placing them side by side or right underneath each other to try and convey the connection to the user better.
-          <img src="images/costar-midfi.png" class="img-center" alt="CoStar Case Study">    
+          </p>
+
+          <div class="component-left">
+            <img src="images/costar-lofi.png" class="img-center full-size" id="costar-lofi" alt="CoStar Case Study">
+          </div>
+
+          <p class="component-right">
             As you can see, there was limited vertical space on the page due to width of the map and columns. After a design review with my manager and a group of senior designers, I went back to the drawing board and rethink how to strengthen this visual connection. 
           </p>     
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Switching to focus on comparability</h4>
-          <h5>Increasing value add by increasing user options</h5>
-          <p>
-            Somewhat stuck, I decided to take a step back from trying to tackle customization and move towards working on comparability. I designed a Compare By drop down that would allow users to select a metric.           
+          <h2><span class="h2-unbold">⦿</span> Switching to focus on comparability</h2>
+          <p class="component-text component-header">Increasing value add by increasing user options</p>
+          
+          <p class="component-text">
+            Somewhat stuck, I decided to take a step back from trying to tackle customization and move towards working on comparability. I designed a Compare By drop down that would allow users to select a metric.   
+          </p>         
           <img src="images/costar-comparability.png" class="img-center" alt="CoStar Case Study">
-          During my second round of feedback, my managers pointed out that the Compare By functionality already existed within the product. However, it was instead referred to as the Sort button. 
-          <br>
-          <br>
-          Immediately I saw the benefits of leverage existing functionality. While fleshing out this idea, inspiration struck!
+          <p class="component-text">
+            During my second round of feedback, my managers pointed out that the Compare By functionality already existed within the product. However, it was instead referred to as the Sort button. <br>
+            Immediately I saw the benefits of leverage existing functionality. While fleshing out this idea, inspiration struck!
           </p>     
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Leveraging current functionality of product</h4>
-          <h5>Adding toggle feature of list and map view</h5>
-          <p>
+          <h2><span class="h2-unbold">⦿</span> Leveraging current functionality of product</h2>
+          <p class="component-text component-header">Adding toggle feature of list and map view</p>
+          <p class="component-text">
             Instead of visually trying to create a new connection between the table and map view, I could leverage an existing feature of the product to achieve this goal. On the properties home page, there is a toggle feature that allows users to switch between map and list view. This feature would remove all the obstacles in my previous designs, namely too little vertical visual space.
-          <img src="images/costar-toggle.png" class="img-center" alt="CoStar Case Study">
+            <br>
+            <br>
+          <img src="images/costar-toggle.png" class="img-center full-size" alt="CoStar Case Study">
           </p>     
         </div>
 
         <div class="casestudy-component">
-          <h4 class="bold">Final design</h4>
+          <h2><span class="h2-unbold">⦿</span> Final Designs</h2>
           <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1100" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FfD6MpCcWKO9F3hPzyURJbV%2FCoStar-Modernizing-Tabs%3Fpage-id%3D0%253A1%26node-id%3D0%253A3986%26viewport%3D488%252C341%252C0.15%26scaling%3Dscale-down-width%26starting-point-node-id%3D0%253A2768" allowfullscreen>
           </iframe>
         </div>
 
-        <div class="casestudy-component">
-          <h4 class="bold">What I learned</h4>
-          <p>With this being one of my first projects working in industry, I can definitely say that I learned a lot, specifically as a designer working for a business. However, I want to highlight that I had a lot of fun applying what I have learned in the classroom.
-          </p>
-          <ol>
-            <li>Someone always knows more than you, learn from them. As someone who had very little knowledge about commercial real estate before this internship, I was very overwhelmed when tasked with this project. But, as my manager quickly pointed out, there will always be someone who knows more than you and you should always ask them what they know. This drove home the point of user centered research and it’s necessity for designers.</li>
-            <li>Older products have “gold”, you just have to dig. While trying to come up with new ways to increase value add of the Peers page, I tried to invent new ways for users to interact with this page. However, I found that leveraging the current features and other aspects of the product resulted in increased benefits due to customers previous mental models and development’s archive of features to build.</li>
-          </ol> 
-        </div>
       </div>  
     </div>
   </div>
@@ -170,7 +175,7 @@
 
 <footer>
   <div class="nav-left">
-    <p>Made from scratch.</p>
+    <p>Coded from scratch.</p>
   </div>
 
   <div class="nav-right">
