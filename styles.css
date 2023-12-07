@@ -414,6 +414,7 @@ div.back h4, div.back p {
 
 #cui-underline {
   font-size: 48px;
+  font-weight: 900;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -421,6 +422,7 @@ div.back h4, div.back p {
 
 #cui-underline::after {
   font-size: 48px;
+  font-weight: 900;
   text-align: center;
   content: "";
   position: absolute;
@@ -565,7 +567,17 @@ p.homepage-subtitle {
 
 .zoo-bold-color {
   font-weight: 700;
-  color: #B3CE7D;
+  color: #59B195;
+}
+
+.cui-bold-color {
+  font-weight: 700;
+  color: #EB4C2E;
+}
+
+.costar-bold-color {
+  font-weight: 700;
+  color: #0D3B72;
 }
 
 .img-caption {
