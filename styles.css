@@ -33,6 +33,7 @@
   font-family: 'PPNikkeiMaru-Light';
   color: #2D2926;
   font-size: 20px;
+  line-height: 1.25;
 }
 
 body, .content{
@@ -56,16 +57,20 @@ h1 {
   margin-bottom: -20px;
 }
 
-h2{
+/* h2{
   font-size: 32px;
   font-weight: 700; 
   text-align: left;
-}
+} */
+h2 {
+  font-family: 'PPNikkeiMaru-Ultrabold', sans-serif;
+  text-align: left;
+  font-size: 28px;
 
+}
 .h2-unbold {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-  font-size: 32px;
+  font-family: 'PPNikkeiMaru', sans-serif;
+  font-size: 24px;
 }
 
 h4{
@@ -98,14 +103,14 @@ footer .nav-left, footer .nav-right {
 
 footer p, footer a {
   font-family: 'PPNikkeiMaru-Light';
-  color: #8091F8;
+  color: #749BC7;
 }
 
 /* -------------------------------------------------------------------------- */
 /* NAVBAR STYLING */
 /* -------------------------------------------------------------------------- */
 nav {
-  height: 10vh;
+  height: 5vh;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -124,14 +129,14 @@ nav {
 .nav-right-item {
   padding-left: 36px;
   padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
   float: right;
   text-decoration: none;
 }
 
 .nav-left-item {
   padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
   float: left;
   text-decoration: none;
 }
