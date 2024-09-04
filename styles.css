@@ -1,7 +1,37 @@
 
+@font-face {
+  font-family: 'PPNikkeiMaru-Light';
+  src: url('fonts/PPNikkeiMaru-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPNikkeiMaru-LightItalic';
+  src: url('fonts/PPNikkeiMaru-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPNikkeiMaru';
+  src: url('fonts/PPNikkeiMaru-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPNikkeiMaru-Italic';
+  src: url('fonts/PPNikkeiMaru-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPNikkeiMaru-Ultrabold';
+  src: url('fonts/PPNikkeiMaru-Ultrabold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPNikkeiMaru-UltraboldItalic';
+  src: url('fonts/PPNikkeiMaru-UltraboldItalic.otf') format('opentype');
+}
+
 * { 
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 300; 
+  font-family: 'PPNikkeiMaru-Light';
+  /* font-weight: 300;  */
   color: #2D2926;
   font-size: 20px;
 }
