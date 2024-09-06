@@ -86,10 +86,12 @@ footer {
 }
 
 footer .nav-left, footer .nav-right {
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
 footer p, footer a {
+  vertical-align: top; 
   font-family: 'PPNikkeiMaru-Light';
   color: #749BC7;
 }
@@ -331,13 +333,11 @@ div.back h4, div.back p {
 
 .casestudy-title h2 {
   font-size: 48px;
-  font-weight: 300;
   text-align: center;
 }
 
 #amazon-ul {
   font-size: 48px;
-  font-weight: 900;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -345,7 +345,6 @@ div.back h4, div.back p {
 
 #amazon-ul::after {
   font-size: 48px;
-  font-weight: 900;
   text-align: center;
   content: "";
   position: absolute;
@@ -453,7 +452,7 @@ p.homepage-subtitle {
 .casestudy-content {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
   float: center;
 }
 
