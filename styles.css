@@ -64,9 +64,12 @@ h2 {
   font-size: 24px;
 
 }
-.h2-unbold {
-  font-family: 'PPNikkeiMaru', sans-serif;
-  font-size: 24px;
+
+h3 {
+  font-family: 'PPNikkeiMaru-LightItalic', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 4px;
 }
 
 h4{
@@ -332,11 +335,13 @@ div.back h4, div.back p {
 /* -------------------------------------------------------------------------- */
 
 .casestudy-title h2 {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   text-align: center;
 }
 
 #amazon-ul {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   text-align: center;
   position: relative;
@@ -344,6 +349,7 @@ div.back h4, div.back p {
 }
 
 #amazon-ul::after {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   text-align: center;
   content: "";
@@ -357,6 +363,7 @@ div.back h4, div.back p {
 }
 
 #costar-underline {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   text-align: center;
   position: relative;
@@ -364,6 +371,7 @@ div.back h4, div.back p {
 }
 
 #costar-underline::after {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   text-align: center;
   content: "";
@@ -377,6 +385,7 @@ div.back h4, div.back p {
 }
 
 #zoo-underline {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -385,6 +394,7 @@ div.back h4, div.back p {
 }
 
 #zoo-underline::after {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   font-weight: 900;
   content: "";
@@ -398,6 +408,7 @@ div.back h4, div.back p {
 }
 
 #cui-underline {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -406,6 +417,7 @@ div.back h4, div.back p {
 }
 
 #cui-underline::after {
+  font-family: 'PPNikkeiMaru-Light', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -462,11 +474,12 @@ p.homepage-subtitle {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding-bottom: 48px;
 }
 
 .casestudy-component img,
 .casestudy-component video {
-  width: 50%;
+  width: 80%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -527,10 +540,6 @@ p.homepage-subtitle {
   display: block;
 } 
 
-.component-text {
-  padding-left: 32px;
-}
-
 .img-center, 
 .component-right video,
 .component-left video,
@@ -541,6 +550,9 @@ p.homepage-subtitle {
 }
 
 .component-header {
+  font-family: 'PPNikkeiMaru', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
   font-size: 32px;
   margin-top: -6px;
 }
