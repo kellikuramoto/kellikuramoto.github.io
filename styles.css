@@ -1,36 +1,26 @@
 
 @font-face {
-  font-family: 'PPNikkeiMaru-Light';
-  src: url('fonts/PPNikkeiMaru-Light.otf') format('opentype');
+  font-family: 'Ambit';
+  src: url('fonts/Ambit Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'PPNikkeiMaru-LightItalic';
-  src: url('fonts/PPNikkeiMaru-LightItalic.otf') format('opentype');
+  font-family: 'Ambit Italic';
+  src: url('fonts/Ambit Regular Italic.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'PPNikkeiMaru';
-  src: url('fonts/PPNikkeiMaru-Regular.otf') format('opentype');
+  font-family: 'Ambit Bold';
+  src: url('fonts/Ambit Bold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'PPNikkeiMaru-Italic';
-  src: url('fonts/PPNikkeiMaru-RegularItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'PPNikkeiMaru-Ultrabold';
-  src: url('fonts/PPNikkeiMaru-Ultrabold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'PPNikkeiMaru-UltraboldItalic';
-  src: url('fonts/PPNikkeiMaru-UltraboldItalic.otf') format('opentype');
+  font-family: 'Ambit Bold Italic';
+  src: url('fonts/Ambit Bold Italic.otf') format('opentype');
 }
 
 * { 
-  font-family: 'PPNikkeiMaru-Light';
+  font-family: 'Ambit';
   color: #2D2926;
   font-size: 16px;
   line-height: 1.25;
@@ -44,7 +34,7 @@ body, .content{
 }
 
 .bold {
-  font-family: 'PPNikkeiMaru', sans-serif;
+  font-family: 'Ambit Bold', sans-serif;
 }
 
 .text-center {
@@ -59,21 +49,21 @@ h1 {
 }
 
 h2 {
-  font-family: 'PPNikkeiMaru', sans-serif;
+  font-family: 'Ambit', sans-serif;
   text-align: left;
   font-size: 24px;
 
 }
 
 h3 {
-  font-family: 'PPNikkeiMaru-LightItalic', sans-serif;
+  font-family: 'Ambit Italic', sans-serif;
   text-align: left;
   font-size: 16px;
   letter-spacing: 4px;
 }
 
 h4{
-  font-family: 'PPNikkeiMaru-Ultrabold', sans-serif;
+  font-family: 'Ambit Bold', sans-serif;
   font-size: 32px;
   margin-bottom: 12px;
 }
@@ -95,7 +85,7 @@ footer .nav-left, footer .nav-right {
 
 footer p, footer a {
   vertical-align: top; 
-  font-family: 'PPNikkeiMaru-Light';
+  font-family: 'Ambit';
   color: #749BC7;
 }
 
@@ -135,20 +125,20 @@ nav {
 }
 
 a.nav-item-right:link , a.nav-item-left:link {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-weight: 200;
   text-decoration: underline;
 }
 
 a.nav-item-right:hover , a.nav-item-left:hover {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-weight: 200;
   color: #8091F8;
   text-decoration: underline;
 }
 
 a.nav-item-right:hover , a.nav-item-left:hover {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-weight: 200;
   color: #8091F8;
   text-decoration: none;
@@ -335,13 +325,13 @@ div.back h4, div.back p {
 /* -------------------------------------------------------------------------- */
 
 .casestudy-title h2 {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   text-align: center;
 }
 
 #amazon-ul {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'AmbitLight', sans-serif;
   font-size: 48px;
   text-align: center;
   position: relative;
@@ -349,7 +339,7 @@ div.back h4, div.back p {
 }
 
 #amazon-ul::after {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   text-align: center;
   content: "";
@@ -363,7 +353,7 @@ div.back h4, div.back p {
 }
 
 #costar-underline {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   text-align: center;
   position: relative;
@@ -371,7 +361,7 @@ div.back h4, div.back p {
 }
 
 #costar-underline::after {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   text-align: center;
   content: "";
@@ -385,7 +375,7 @@ div.back h4, div.back p {
 }
 
 #zoo-underline {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -394,7 +384,7 @@ div.back h4, div.back p {
 }
 
 #zoo-underline::after {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   font-weight: 900;
   content: "";
@@ -408,7 +398,7 @@ div.back h4, div.back p {
 }
 
 #cui-underline {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -417,7 +407,7 @@ div.back h4, div.back p {
 }
 
 #cui-underline::after {
-  font-family: 'PPNikkeiMaru-Light', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-size: 48px;
   font-weight: 900;
   text-align: center;
@@ -550,7 +540,7 @@ p.homepage-subtitle {
 }
 
 .component-header {
-  font-family: 'PPNikkeiMaru', sans-serif;
+  font-family: 'Ambit', sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 32px;
